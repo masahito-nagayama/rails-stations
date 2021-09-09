@@ -4,7 +4,7 @@ RSpec.describe MoviesController, type: :controller do
   render_views
   describe 'Station1 GET /movies' do
     before do
-      create_list(:movie, 3)
+      # create_list(:movie, 3)
       get 'index'
     end
 
