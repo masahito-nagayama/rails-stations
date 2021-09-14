@@ -1,0 +1,12 @@
+<% @movies.each do |movie| %>
+  <table border="1">
+    <tr>
+      <td><%= movie.id %></td>
+      <td><%= movie.name %></td>
+      <td><%= movie.year %></td>
+      <td><%= movie.is_showing %></td>
+      <td><%= movie.created_at %></td>
+      <td><%= movie.updated_at %></td>
+    </tr>
+  </table>
+<% end %>
